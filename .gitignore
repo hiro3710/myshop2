@@ -1,0 +1,12 @@
+# git管理から外したいファイルやフォルダーを記述する
+# 以下例
+# デザインデータ
+*.psd
+*.ai
+
+# ロゴ以外の画像ファイル ! ---
+/images/
+!/images/logo.png
+
+settings.txt
+memo.txt
